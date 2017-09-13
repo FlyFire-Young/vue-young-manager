@@ -21,7 +21,7 @@
     export default {
         data() {
             return {
-                name: 'linxin'
+                name: 'Young'
             }
         },
         computed:{
