@@ -1,8 +1,6 @@
 # manage-system #
 基于Vue.js 2.x系列 + Element UI 的后台管理系统解决方案。[线上地址](http://work.omwteam.com/)
 
-[English document](https://github.com/lin-xin/manage-system/blob/master/README_EN.md)
-
 ## 前言 ##
 Vue + Element组件库的后台管理系统。
 
@@ -51,7 +49,7 @@ Vue + Element组件库的后台管理系统。
 
 ## 安装步骤 ##
 
-	git clone https://github.com/lin-xin/manage-system.git      // 把模板下载到本地
+	git clone https://github.com/FlyFire-Young/vue-young-manager.git      // 把模板下载到本地
 	cd manage-system    // 进入模板目录
 	npm install         // 安装项目依赖，等待安装完成之后
 
@@ -68,7 +66,7 @@ Vue + Element组件库的后台管理系统。
 ## 组件使用说明与演示 ##
 
 ### vue-schart ###
-vue.js封装sChart.js的图表组件。访问地址：[vue-schart](https://github.com/linxin/vue-schart)
+vue.js封装sChart.js的图表组件。
 <p><a href="https://www.npmjs.com/package/vue-schart"><img src="https://img.shields.io/npm/dm/vue-schart.svg" alt="Downloads"></a></p>
 
 ```JavaScript
@@ -180,11 +178,3 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 
 第三步：打开 src/components/common/Sidebar.vue 文件，找到 el-menu 标签，把 theme="dark" 去掉即可。
 
-## 项目截图 ##
-### 默认皮肤 ###
-
-![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms1.png)
-
-### 浅绿色皮肤 ###
-
-![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms2.png)
